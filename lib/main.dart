@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:inner_bhakti_frontend/screens/program_list_screen.dart';
 
-void main(){
+void main() {
   runApp(const MyApp());
 }
 
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       home: ProgramListScreen(),
     );
   }
